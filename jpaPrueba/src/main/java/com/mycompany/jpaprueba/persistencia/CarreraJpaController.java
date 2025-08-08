@@ -4,12 +4,10 @@
  */
 package com.mycompany.jpaprueba.persistencia;
 
-import java.io.Serializable;
-
 /**
  *
  * @author BarrileteCosmico
  */
-public class AlumnoJpaController implements Serializable {
+public class CarreraJpaController {
     
 }
