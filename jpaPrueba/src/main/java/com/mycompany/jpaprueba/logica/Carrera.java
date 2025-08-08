@@ -1,5 +1,6 @@
 package com.mycompany.jpaprueba.logica;
 
+import java.io.Serializable;
 import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,7 +12,7 @@ import javax.persistence.OneToOne;
   * @author BarrileteCosmico
  */
 @Entity
-public class Carrera {
+public class Carrera implements Serializable {
     //Variables
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)    
